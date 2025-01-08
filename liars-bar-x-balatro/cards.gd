@@ -32,4 +32,6 @@ func _on_mouse_entered() -> void:
 func _on_mouse_exited() -> void:
 	var tween = get_tree().create_tween().set_ease(Tween.EASE_OUT).set_trans(Tween.TRANS_ELASTIC)
 	tween.tween_property(self, "scale", og_scale - Vector2(0.02, 0.02), 0.5)
+	card.material.set_shader_parameter("x_rot", 0)
+	card.material.set_shader_parameter("y_rot", 0)
 	pop_up = false
