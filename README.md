@@ -71,6 +71,7 @@ Welcome to my **2D Pixel Art Card Game**, an exciting and deadly twist on tradit
 ## 📅 **Development Roadmap**
 
 ### Phase 1: Core Gameplay Mechanics
+- [ ] Implement a state machine to manage different card states.
 - [ ] Implement basic card mechanics.
 - [ ] Add bluffing and health systems.
 - [ ] Introduce joker bonuses and their effects.
