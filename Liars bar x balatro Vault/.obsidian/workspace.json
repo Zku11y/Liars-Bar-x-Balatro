@@ -1,0 +1,238 @@
+{
+  "main": {
+    "id": "908c731f57e14f05",
+    "type": "split",
+    "children": [
+      {
+        "id": "e2b5cc90f3f0cbae",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5f7a54de1cec78b3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Links.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Links"
+            }
+          },
+          {
+            "id": "8d69c98718b2ecf4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Liars Bar x Balatro.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Liars Bar x Balatro"
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "7a5acdbe66135ffe",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3fd7522cb861fc28",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Liars Bar x Balatro.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Liars Bar x Balatro"
+            }
+          },
+          {
+            "id": "9dd769b91f5f2568",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Current Tasks.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Current Tasks"
+            }
+          },
+          {
+            "id": "34aa35749491bc16",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DONT FORGET!!!.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "DONT FORGET!!!"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "01982a77a1e2afec",
+    "type": "split",
+    "children": [
+      {
+        "id": "e4a47b8cb0c9bba9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "14d94d9777d622cf",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "d66aa3183805ee61",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#YouTube",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "259f1be41e12c0b1",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "d61b569a3d95e6eb",
+    "type": "split",
+    "children": [
+      {
+        "id": "4d936c770bc7f9dd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cb1d52b2e21de467",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Current Tasks.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Current Tasks"
+            }
+          },
+          {
+            "id": "aff324cc329f1c89",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Current Tasks.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Current Tasks"
+            }
+          },
+          {
+            "id": "50ef49e20d5324ce",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "df68f54afd359b11",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Current Tasks.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Current Tasks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "9dd769b91f5f2568",
+  "lastOpenFiles": [
+    "Current Tasks.md",
+    "Liars Bar x Balatro.md",
+    "State machine.md",
+    "DONT FORGET!!!.md",
+    "Links.md",
+    "Welcome.md"
+  ]
+}

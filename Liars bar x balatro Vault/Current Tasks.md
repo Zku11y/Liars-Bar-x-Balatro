@@ -1,0 +1,3 @@
+- [x] Implement rotation animation
+- [x] Implement pop-up animation
+- [ ] understand the shader script

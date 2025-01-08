@@ -1,0 +1,1 @@
+if you want to modify the parameter of a shader use this : "material:shade_parameter/parameter"

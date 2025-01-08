@@ -1,0 +1,30 @@
+[gd_scene load_steps=5 format=3 uid="uid://ddlpy255bnhu5"]
+
+[ext_resource type="Shader" path="res://idle_wobble.gdshader" id="1_r7k1o"]
+[ext_resource type="Texture2D" uid="uid://db48ol5bjys1i" path="res://Assets/Cards_PNG/black/Clovers_A_black.png" id="2_myya4"]
+[ext_resource type="Script" path="res://cards.gd" id="3_bqydt"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_ytyg5"]
+shader = ExtResource("1_r7k1o")
+shader_parameter/fov = 90.0
+shader_parameter/cull_back = true
+shader_parameter/y_rot = 0.0
+shader_parameter/x_rot = 0.0
+shader_parameter/inset = 0.0
+
+[node name="TextureRect" type="TextureRect"]
+material = SubResource("ShaderMaterial_ytyg5")
+use_parent_material = true
+offset_left = 253.0
+offset_top = -149.0
+offset_right = 908.0
+offset_bottom = 781.0
+scale = Vector2(0.342836, 0.342836)
+pivot_offset = Vector2(327, 465)
+size_flags_horizontal = 4
+texture = ExtResource("2_myya4")
+script = ExtResource("3_bqydt")
+
+[connection signal="gui_input" from="." to="." method="_on_gui_input"]
+[connection signal="mouse_entered" from="." to="." method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="." to="." method="_on_mouse_exited"]
