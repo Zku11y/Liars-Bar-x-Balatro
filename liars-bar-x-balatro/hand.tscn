@@ -1,0 +1,21 @@
+[gd_scene load_steps=3 format=3 uid="uid://clfen5rocfpxq"]
+
+[ext_resource type="Script" path="res://container.gd" id="1_1lt43"]
+[ext_resource type="PackedScene" uid="uid://ddlpy255bnhu5" path="res://Cards.tscn" id="2_hyd7t"]
+
+[node name="Container" type="HBoxContainer"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 86.9999
+offset_top = 8.99997
+offset_right = 377.0
+offset_bottom = 299.0
+grow_horizontal = 2
+grow_vertical = 2
+pivot_offset = Vector2(747.957, 467.304)
+theme_override_constants/separation = -250
+script = ExtResource("1_1lt43")
+
+[node name="card" parent="." instance=ExtResource("2_hyd7t")]
+layout_mode = 2

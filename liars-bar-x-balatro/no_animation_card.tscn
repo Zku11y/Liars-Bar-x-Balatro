@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://bxk06h87ohcju"]
+
+[ext_resource type="Texture2D" uid="uid://dps0033ofam6h" path="res://outlined_Ace.png" id="1_u483x"]
+[ext_resource type="Script" path="res://no_animation_card.gd" id="2_1pq42"]
+
+[node name="Control" type="TextureRect"]
+offset_left = 45.0
+offset_top = -62.0
+offset_right = 730.0
+offset_bottom = 898.0
+scale = Vector2(0.11, 0.11)
+pivot_offset = Vector2(586.336, 464.008)
+texture = ExtResource("1_u483x")
+script = ExtResource("2_1pq42")

@@ -35,8 +35,7 @@
               "title": "Liars Bar x Balatro"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "7a5acdbe66135ffe",
@@ -226,13 +225,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9dd769b91f5f2568",
+  "active": "5f7a54de1cec78b3",
   "lastOpenFiles": [
+    "().md",
+    "Links.md",
     "Current Tasks.md",
+    "DONT FORGET!!!.md",
     "Liars Bar x Balatro.md",
     "State machine.md",
-    "DONT FORGET!!!.md",
-    "Links.md",
     "Welcome.md"
   ]
 }

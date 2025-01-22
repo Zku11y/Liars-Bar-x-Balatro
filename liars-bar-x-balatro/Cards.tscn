@@ -1,8 +1,8 @@
-[gd_scene load_steps=5 format=3 uid="uid://ddlpy255bnhu5"]
+[gd_scene load_steps=6 format=3 uid="uid://ddlpy255bnhu5"]
 
 [ext_resource type="Shader" path="res://idle_wobble.gdshader" id="1_r7k1o"]
-[ext_resource type="Texture2D" uid="uid://db48ol5bjys1i" path="res://Assets/Cards_PNG/black/Clovers_A_black.png" id="2_myya4"]
-[ext_resource type="Script" path="res://cards.gd" id="3_bqydt"]
+[ext_resource type="Texture2D" uid="uid://de5bhsdpobhrb" path="res://Assets/Cards_PNG/outlined_Ace.png" id="2_1joog"]
+[ext_resource type="Script" path="res://Card.gd" id="3_bqydt"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_ytyg5"]
 shader = ExtResource("1_r7k1o")
@@ -12,19 +12,43 @@ shader_parameter/y_rot = 0.0
 shader_parameter/x_rot = 0.0
 shader_parameter/inset = 0.0
 
-[node name="TextureRect" type="TextureRect"]
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_3ll60"]
+size = Vector2(0.298969, 11.1693)
+
+[node name="Card" type="TextureRect"]
+texture_filter = 2
 material = SubResource("ShaderMaterial_ytyg5")
 use_parent_material = true
-offset_left = 253.0
-offset_top = -149.0
-offset_right = 908.0
-offset_bottom = 781.0
-scale = Vector2(0.342836, 0.342836)
-pivot_offset = Vector2(327, 465)
+anchors_preset = -1
+anchor_left = 0.502
+anchor_top = 0.5
+anchor_right = 0.502
+anchor_bottom = 0.5
+offset_left = -344.804
+offset_top = -480.0
+offset_right = 340.196
+offset_bottom = 480.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.26, 0.26)
+pivot_offset = Vector2(346, 481)
 size_flags_horizontal = 4
-texture = ExtResource("2_myya4")
+size_flags_vertical = 4
+texture = ExtResource("2_1joog")
 script = ExtResource("3_bqydt")
+metadata/_edit_horizontal_guides_ = [161.0]
+metadata/_edit_vertical_guides_ = [114.0]
+
+[node name="Area2D" type="Area2D" parent="."]
+position = Vector2(1129.13, 365.827)
+scale = Vector2(2286.82, 85.7507)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(-0.344135, 1.33274)
+shape = SubResource("RectangleShape2D_3ll60")
 
 [connection signal="gui_input" from="." to="." method="_on_gui_input"]
 [connection signal="mouse_entered" from="." to="." method="_on_mouse_entered"]
 [connection signal="mouse_exited" from="." to="." method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="Area2D" to="." method="_on_area_2d_mouse_entered"]
+[connection signal="mouse_exited" from="Area2D" to="." method="_on_area_2d_mouse_exited"]

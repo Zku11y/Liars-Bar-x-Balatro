@@ -1,0 +1,42 @@
+[gd_scene load_steps=2 format=3 uid="uid://b7bks2reov0xw"]
+
+[ext_resource type="Script" path="res://Card_hand.gd" id="3_cx4vl"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="VBoxContainer" type="VBoxContainer" parent="CanvasLayer"]
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -948.0
+offset_top = -478.0
+offset_right = 252.0
+offset_bottom = -262.0
+grow_horizontal = 2
+grow_vertical = 0
+scale = Vector2(0.851146, 0.851146)
+
+[node name="ColorRect" type="ColorRect" parent="CanvasLayer/VBoxContainer"]
+custom_minimum_size = Vector2(1200, 216.89)
+layout_mode = 2
+color = Color(1, 1, 1, 0)
+script = ExtResource("3_cx4vl")
+
+[node name="Button" type="Button" parent="CanvasLayer"]
+offset_left = 61.0
+offset_top = 43.0
+offset_right = 221.0
+offset_bottom = 114.0
+text = "add card"
+
+[connection signal="pressed" from="CanvasLayer/Button" to="CanvasLayer/VBoxContainer/ColorRect" method="_on_button_pressed"]
