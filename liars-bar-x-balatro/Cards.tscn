@@ -20,20 +20,18 @@ texture_filter = 2
 material = SubResource("ShaderMaterial_ytyg5")
 use_parent_material = true
 anchors_preset = -1
-anchor_left = 0.502
-anchor_top = 0.5
-anchor_right = 0.502
-anchor_bottom = 0.5
-offset_left = -344.804
-offset_top = -480.0
-offset_right = 340.196
-offset_bottom = 480.0
+anchor_left = 0.422
+anchor_top = 0.307
+anchor_right = 0.577
+anchor_bottom = 0.693
+offset_left = -225.144
+offset_top = -287.936
+offset_right = 281.296
+offset_bottom = 421.936
 grow_horizontal = 2
 grow_vertical = 2
-scale = Vector2(0.26, 0.26)
-pivot_offset = Vector2(346, 481)
-size_flags_horizontal = 4
-size_flags_vertical = 4
+scale = Vector2(0.330018, 0.330018)
+pivot_offset = Vector2(342, 480)
 texture = ExtResource("2_1joog")
 script = ExtResource("3_bqydt")
 metadata/_edit_horizontal_guides_ = [161.0]
@@ -41,7 +39,7 @@ metadata/_edit_vertical_guides_ = [114.0]
 
 [node name="Area2D" type="Area2D" parent="."]
 position = Vector2(1129.13, 365.827)
-scale = Vector2(2286.82, 85.7507)
+scale = Vector2(2285.67, 85.856)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
 position = Vector2(-0.344135, 1.33274)
