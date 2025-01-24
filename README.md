@@ -71,10 +71,10 @@ Welcome to my **2D Pixel Art Card Game**, an exciting and deadly twist on tradit
 ## 📅 **Development Roadmap**
 
 ### Phase 1: Core Gameplay Mechanics
-- [ ] Implement a state machine to manage different card states.
-- [ ] Implement basic card mechanics.
-- [ ] Add bluffing and health systems.
-- [ ] Introduce joker bonuses and their effects.
+- [X] Implement a state machine to manage different card states.
+- [X] Implement basic card mechanics.
+- [ ] Implement core gameplay: playing the cards with other players.
+- [ ] Add health and damage systems.
 
 ### Phase 2: Visuals and Audio
 - [ ] Design pixel art for cards, characters, and backgrounds.
@@ -84,6 +84,7 @@ Welcome to my **2D Pixel Art Card Game**, an exciting and deadly twist on tradit
 - [ ] Build AI opponents with varying difficulty.
 - [ ] Add multiplayer functionality.
 - [ ] Polish UI and animations.
+- [ ] Introduce joker bonuses and their effects.
 
 ### Phase 4: Playtesting and Release
 - [ ] Conduct thorough playtesting.
